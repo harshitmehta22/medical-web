@@ -597,6 +597,9 @@ End Header CSS
 /*===========================
 Start Hero Area CSS
 =============================*/
+.single-slider{
+  background: url('../src/images/slider.jpg');
+}
 .slider .single-slider {
 height: 600px;
 background-size: cover;
@@ -917,7 +920,7 @@ background-size:cover;
 background-repeat:no-repeat;
 }
 .fun-facts .single-fun {
-
+position: relative;
 }
 .fun-facts .single-fun i {
 position: absolute;
@@ -1087,6 +1090,8 @@ background-repeat:no-repeat;
 .call-action .content{
 text-align:center;
 padding:100px 265px;
+z-index: 999;
+position: relative;
 }
 .call-action .content h2{
 color:#fff;
@@ -1126,7 +1131,7 @@ color: #fff !important;
 background:#fff;
 }
 .call-action .content .second:hover{
-color:#1A76D1;
+color:#1A76D1 !important;
 border-color:transparent;
 background:#fff;
 }

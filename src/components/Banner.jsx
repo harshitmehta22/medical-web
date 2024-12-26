@@ -5,7 +5,7 @@ const Banner = () => {
         <>
         	<section class="slider">
 			<div class="hero-slider">
-				<div class="single-slider" style={{background: 'url(./images/slider2.jpg)'}}>
+				<div class="single-slider">
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-7">
