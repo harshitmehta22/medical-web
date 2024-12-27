@@ -6,6 +6,9 @@ import Feature from '../components/feature';
 import WhyChoose from '../components/WhyChoose';
 import CallAction from '../components/CallAction';
 import Portfolio from '../components/portfolio';
+import Service from '../components/Service';
+import PricingTable from '../components/PricingTable';
+import Blog from '../components/Blog';
 
 
 const Home = () => {
@@ -19,6 +22,9 @@ const Home = () => {
                 <WhyChoose />
                 <CallAction />
                 <Portfolio />
+                <Service />
+                <PricingTable />
+                <Blog />
             </div>
         </>
     )

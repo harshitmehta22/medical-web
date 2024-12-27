@@ -25,6 +25,18 @@ const Portfolio = () => {
                                     <a href="portfolio-details.html" class="btn">View Details</a>
                                 </div>
                             </div>
+                            <div class="owl-carousel portfolio-slider">
+                                <div class="single-pf">
+                                    <img src={Pf1} alt="#" />
+                                    <a href="portfolio-details.html" class="btn">View Details</a>
+                                </div>
+                            </div>
+                            <div class="owl-carousel portfolio-slider">
+                                <div class="single-pf">
+                                    <img src={Pf1} alt="#" />
+                                    <a href="portfolio-details.html" class="btn">View Details</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

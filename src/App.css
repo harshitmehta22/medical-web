@@ -4180,6 +4180,14 @@ text-decoration:underline;
 display:inline-block;
 margin-left:4px;
 }
+.owl-carousel.portfolio-slider {
+  width: 30%;
+  display: inline-block;
+  margin-right: 18px;
+}
+.owl-carousel.portfolio-slider:last-child{
+  margin-right: 0px;
+}
 /*=========================
 End Footer CSS
 ===========================*/
